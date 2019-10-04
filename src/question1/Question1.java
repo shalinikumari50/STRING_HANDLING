@@ -18,5 +18,11 @@ public class Question1 {
     public void indexChar() {
         StringBuilder index = new StringBuilder("index:\t");
         StringBuilder characters = new StringBuilder("chars:\t");
+        for (int i = 0; i < string.length(); i++) {
+            index.append(i + "\t");
+            characters.append(string.charAt(i) + "\t");
+        }
+        System.out.println(index);
+        System.out.println(characters);
     }
 }
