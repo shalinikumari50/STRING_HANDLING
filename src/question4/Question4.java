@@ -2,6 +2,8 @@ package question4;
 
 import question3.Question3;
 
+import java.util.Scanner;
+
 public class Question4 extends Question3 {
     public Question4(String string) {
         super(string);
@@ -30,6 +32,7 @@ public class Question4 extends Question3 {
 
 class Main {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
+        scanner.close();
     }
 }
