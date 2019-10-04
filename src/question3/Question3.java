@@ -14,4 +14,13 @@ public class Question3 {
     public void setString(String string) {
         this.string = string;
     }
+
+    public void replaceVowels() {
+        char[] arr = {'a', 'e', 'i', 'o', 'u'};
+        for (char var : arr) {
+            string = string.replace(var, '*');
+        }
+        System.out.println(string);
+    }
+
 }
