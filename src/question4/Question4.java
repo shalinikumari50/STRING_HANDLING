@@ -36,7 +36,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         Question4 ques4 = new Question4(string);
-
+        ques4.replaceVowels();
         scanner.close();
     }
 }
