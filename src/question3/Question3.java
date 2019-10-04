@@ -24,3 +24,6 @@ public class Question3 {
     }
 
 }
+
+class Main {
+}
