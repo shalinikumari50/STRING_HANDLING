@@ -1,5 +1,7 @@
 package question1;
 
+import java.util.Scanner;
+
 public class Question1 {
     private String string;
 
@@ -29,6 +31,7 @@ public class Question1 {
 
 class Main {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
+        scanner.close();
     }
 }
