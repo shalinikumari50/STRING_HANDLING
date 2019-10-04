@@ -34,6 +34,8 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
+        Question4 ques4 = new Question4(string);
+
         scanner.close();
     }
 }
