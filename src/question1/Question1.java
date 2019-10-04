@@ -16,5 +16,7 @@ public class Question1 {
     }
 
     public void indexChar() {
+        StringBuilder index = new StringBuilder("index:\t");
+        StringBuilder characters = new StringBuilder("chars:\t");
     }
 }
