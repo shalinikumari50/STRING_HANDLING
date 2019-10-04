@@ -34,6 +34,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         Question1 ques1 = new Question1(string);
+        ques1.indexChar();
         scanner.close();
     }
 }
