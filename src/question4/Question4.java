@@ -11,21 +11,22 @@ public class Question4 extends Question3 {
 
     @Override
     public void replaceVowels() {
-        char[] arr = {'a', 'e', 'i', 'o', 'u'};
+
         int count = 0;
-        for (char var : arr) {
+        for (int i = 0; i < getString().length(); i++) {
+
             if (count == 0) {
-                setString(getString().replace(var, '*'));
+                setString(getString().replaceFirst("[aeiou]", "*"));
                 count += 1;
             } else if (count == 1) {
-                setString(getString().replace(var, '^'));
+                setString(getString().replaceFirst("[aeiou]", "^"));
                 count += 1;
             } else {
-                setString(getString().replace(var, '!'));
+                setString(getString().replaceFirst("[aeiou]", "!"));
                 count = (count + 1) % 3;
             }
-
         }
+
         System.out.println(getString());
     }
 }
