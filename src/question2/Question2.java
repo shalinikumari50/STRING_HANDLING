@@ -29,3 +29,7 @@ public class Question2 {
         System.out.println(string.substring(index));
     }
 }
+
+class Main {
+
+}
