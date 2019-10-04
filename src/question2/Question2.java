@@ -24,4 +24,8 @@ public class Question2 {
     public void setIndex(int index) {
         this.index = index;
     }
+
+    public void substring() {
+        System.out.println(string.substring(index));
+    }
 }
