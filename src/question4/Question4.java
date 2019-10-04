@@ -1,17 +1,10 @@
 package question4;
 
-public class Question4 {
-    private String string;
+import question3.Question3;
 
+public class Question4 extends Question3 {
     public Question4(String string) {
-        this.string = string;
+        super(string);
     }
 
-    public String getString() {
-        return string;
-    }
-
-    public void setString(String string) {
-        this.string = string;
-    }
 }
