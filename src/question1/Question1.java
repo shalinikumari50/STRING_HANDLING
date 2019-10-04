@@ -26,3 +26,9 @@ public class Question1 {
         System.out.println(characters);
     }
 }
+
+class Main {
+    public static void main(String[] args) {
+
+    }
+}
