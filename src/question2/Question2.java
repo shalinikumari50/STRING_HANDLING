@@ -1,5 +1,7 @@
 package question2;
 
+import java.util.Scanner;
+
 public class Question2 {
     private String string;
     private int index;
@@ -31,5 +33,8 @@ public class Question2 {
 }
 
 class Main {
-
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        scanner.close();
+    }
 }
