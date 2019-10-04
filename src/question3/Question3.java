@@ -32,6 +32,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         Question3 ques3 = new Question3(string);
+        ques3.replaceVowels();
         scanner.close();
 
     }
