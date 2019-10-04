@@ -14,4 +14,7 @@ public class Question1 {
     public void setString(String string) {
         this.string = string;
     }
+
+    public void indexChar() {
+    }
 }
