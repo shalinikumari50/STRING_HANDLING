@@ -27,3 +27,9 @@ public class Question4 extends Question3 {
         System.out.println(getString());
     }
 }
+
+class Main {
+    public static void main(String[] args) {
+
+    }
+}
