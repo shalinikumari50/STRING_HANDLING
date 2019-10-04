@@ -37,6 +37,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         int index = Integer.parseInt(scanner.nextLine());
+        Question2 ques2 = new Question2(string, index);
         scanner.close();
     }
 }
