@@ -10,4 +10,8 @@ public class Question8 {
     public void setString(String string) {
         this.string = string;
     }
+
+    public Question8(String string) {
+        this.string = string;
+    }
 }
