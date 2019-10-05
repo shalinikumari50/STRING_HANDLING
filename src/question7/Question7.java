@@ -24,3 +24,9 @@ public class Question7 {
         System.out.println(weight);
     }
 }
+
+class Main {
+    public static void main(String[] args) {
+
+    }
+}
