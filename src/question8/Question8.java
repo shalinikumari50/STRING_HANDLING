@@ -17,7 +17,7 @@ public class Question8 {
         this.string = string;
     }
 
-    public void calculateUpperWeight() {
+    public int calculateUpperWeight() {
         char[] characters = string.toCharArray();
         int upperWeight = 0;
         for (char var : characters) {
@@ -25,7 +25,7 @@ public class Question8 {
                 upperWeight += var;
             }
         }
-        System.out.println(upperWeight);
+        return upperWeight;
     }
 }
 
@@ -34,7 +34,8 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         Question8 ques8 = new Question8(string);
-        ques8.calculateUpperWeight();
+        int upperWeight = ques8.calculateUpperWeight();
+        System.out.println(upperWeight);
         scanner.close();
 
     }
