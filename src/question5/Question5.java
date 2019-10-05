@@ -37,6 +37,9 @@ public class Question5 {
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        String string = scanner.nextLine();
+        String substring = scanner.nextLine();
+
         scanner.close();
     }
 }
