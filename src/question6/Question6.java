@@ -28,6 +28,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         Question6 ques6 = new Question6(string);
+        ques6.upperCase();
         scanner.close();
     }
 
