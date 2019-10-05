@@ -39,6 +39,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         String substring = scanner.nextLine();
+        Question5 ques5 = new Question5(string, substring);
 
         scanner.close();
     }
