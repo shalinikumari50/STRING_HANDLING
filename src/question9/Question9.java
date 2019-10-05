@@ -7,7 +7,7 @@ public class Question9 extends Question8 {
         super(string);
     }
 
-    public void calculateLowerWeight() {
+    public int calculateLowerWeight() {
         char[] characters = getString().toCharArray();
         int lowerWeight = 0;
         for (char var : characters) {
@@ -15,6 +15,6 @@ public class Question9 extends Question8 {
                 lowerWeight += var;
             }
         }
-        System.out.println(lowerWeight);
+        return lowerWeight;
     }
 }
