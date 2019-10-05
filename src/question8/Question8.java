@@ -14,4 +14,15 @@ public class Question8 {
     public Question8(String string) {
         this.string = string;
     }
+
+    public void calculateUpperWeight() {
+        char[] characters = string.toCharArray();
+        int upperWeight = 0;
+        for (char var : characters) {
+            if (Character.toUpperCase(var) == var) {
+                upperWeight += var;
+            }
+        }
+        System.out.println(upperWeight);
+    }
 }
