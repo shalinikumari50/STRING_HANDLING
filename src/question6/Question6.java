@@ -27,6 +27,7 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
+        Question6 ques6 = new Question6(string);
         scanner.close();
     }
 
