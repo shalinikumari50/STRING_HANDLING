@@ -14,4 +14,13 @@ public class Question7 {
     public void setString(String string) {
         this.string = string;
     }
+
+    public void calculateTotalWeight() {
+        char[] characters = string.toCharArray();
+        int weight = 0;
+        for (char var : characters) {
+            weight += var;
+        }
+        System.out.println(weight);
+    }
 }
