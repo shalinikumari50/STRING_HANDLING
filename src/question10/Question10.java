@@ -38,6 +38,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine().trim();
         char ch = scanner.next().charAt(0);
+        Question10 ques10 = new Question10(string, ch);
         scanner.close();
 
     }
