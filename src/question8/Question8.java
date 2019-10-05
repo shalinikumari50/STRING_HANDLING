@@ -26,3 +26,9 @@ public class Question8 {
         System.out.println(upperWeight);
     }
 }
+
+class Main {
+    public static void main(String[] args) {
+
+    }
+}
