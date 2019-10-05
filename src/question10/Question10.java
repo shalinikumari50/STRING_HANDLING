@@ -1,5 +1,7 @@
 package question10;
 
+import java.util.Scanner;
+
 public class Question10 {
     private String string;
     private char ch;
@@ -33,6 +35,8 @@ public class Question10 {
 
 class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        scanner.close();
 
     }
 }
