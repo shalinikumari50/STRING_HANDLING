@@ -33,6 +33,7 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
+        Question8 ques8 = new Question8(string);
         scanner.close();
 
     }
