@@ -14,4 +14,9 @@ public class Question6 {
     public void setString(String string) {
         this.string = string;
     }
+
+    public void upperCase() {
+        string = string.toUpperCase();
+        System.out.println(string);
+    }
 }
