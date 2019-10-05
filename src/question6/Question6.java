@@ -20,3 +20,7 @@ public class Question6 {
         System.out.println(string);
     }
 }
+
+class Main {
+
+}
