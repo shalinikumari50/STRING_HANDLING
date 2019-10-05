@@ -42,6 +42,7 @@ class Main {
         String string = scanner.nextLine().trim();
         char ch = scanner.next().charAt(0);
         Question11 ques11 = new Question11(string, ch);
+        ques11.allIndexesOfCharacter();
         scanner.close();
 
     }
