@@ -40,6 +40,7 @@ class Main {
         String string = scanner.nextLine();
         String substring = scanner.nextLine();
         Question5 ques5 = new Question5(string, substring);
+        ques5.replaceSubstring();
 
         scanner.close();
     }
