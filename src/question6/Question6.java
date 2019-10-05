@@ -26,6 +26,7 @@ public class Question6 {
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        String string = scanner.nextLine();
         scanner.close();
     }
 
