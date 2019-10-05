@@ -32,6 +32,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         Question7 ques7 = new Question7(string);
+        ques7.calculateTotalWeight();
         scanner.close();
 
     }
