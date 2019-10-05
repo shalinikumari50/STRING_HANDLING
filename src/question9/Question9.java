@@ -18,3 +18,9 @@ public class Question9 extends Question8 {
         return lowerWeight;
     }
 }
+
+class Main {
+    public static void main(String[] args) {
+
+    }
+}
