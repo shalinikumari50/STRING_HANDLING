@@ -30,3 +30,9 @@ public class Question10 {
         System.out.println(index);
     }
 }
+
+class Main {
+    public static void main(String[] args) {
+
+    }
+}
