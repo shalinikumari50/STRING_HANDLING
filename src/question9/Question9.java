@@ -19,6 +19,11 @@ public class Question9 extends Question8 {
         }
         return lowerWeight;
     }
+
+    public int calculateAbsoluteWeight() {
+        int absoluteWeight = Math.abs(calculateUpperWeight() - calculateLowerWeight());
+        return absoluteWeight;
+    }
 }
 
 class Main {
