@@ -31,3 +31,6 @@ public class Question5 {
         System.out.println(string);
     }
 }
+
+class Main {
+}
