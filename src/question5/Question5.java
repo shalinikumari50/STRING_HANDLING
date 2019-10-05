@@ -24,4 +24,10 @@ public class Question5 {
     public void setSubstring(String substring) {
         this.substring = substring;
     }
+
+
+    public void replaceSubstring() {
+        string = string.replaceAll(substring, "*");
+        System.out.println(string);
+    }
 }
