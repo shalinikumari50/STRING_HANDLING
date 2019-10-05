@@ -31,6 +31,7 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
+        Question7 ques7 = new Question7(string);
         scanner.close();
 
     }
