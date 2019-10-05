@@ -4,6 +4,11 @@ public class Question11 {
     private String string;
     private char ch;
 
+    public Question11(String string, char ch) {
+        this.string = string;
+        this.ch = ch;
+    }
+
     public String getString() {
         return string;
     }
