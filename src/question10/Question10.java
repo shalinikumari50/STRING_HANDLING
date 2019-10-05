@@ -24,4 +24,9 @@ public class Question10 {
     public void setCh(char ch) {
         this.ch = ch;
     }
+
+    public void indexOfGivenCharacter() {
+        int index = string.indexOf(ch);
+        System.out.println(index);
+    }
 }
