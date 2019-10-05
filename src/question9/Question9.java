@@ -24,6 +24,7 @@ public class Question9 extends Question8 {
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        String string = scanner.nextLine();
         scanner.close();
     }
 }
