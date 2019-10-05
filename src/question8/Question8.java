@@ -34,6 +34,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         Question8 ques8 = new Question8(string);
+        ques8.calculateUpperWeight();
         scanner.close();
 
     }
