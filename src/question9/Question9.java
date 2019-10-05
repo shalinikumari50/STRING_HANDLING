@@ -30,6 +30,7 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
+        Question9 ques9 = new Question9(string);
         scanner.close();
     }
 }
