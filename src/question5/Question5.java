@@ -4,6 +4,11 @@ public class Question5 {
     private String string;
     private String substring;
 
+    public Question5(String string, String substring) {
+        this.string = string;
+        this.substring = substring;
+    }
+
     public String getString() {
         return string;
     }
