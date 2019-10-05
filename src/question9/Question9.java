@@ -31,6 +31,8 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         Question9 ques9 = new Question9(string);
+        int absoluteWeight = ques9.calculateAbsoluteWeight();
+        System.out.println(absoluteWeight);
         scanner.close();
     }
 }
