@@ -24,4 +24,12 @@ public class Question11 {
     public void setCh(char ch) {
         this.ch = ch;
     }
+
+    public void allIndexesOfCharacter() {
+        for (int i = 0; i < string.length(); i++) {
+            if (string.charAt(i) == ch) {
+                System.out.println(i);
+            }
+        }
+    }
 }
